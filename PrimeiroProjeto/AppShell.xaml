@@ -12,4 +12,19 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
+    <ShellContent 
+        Title="Questoes"
+        ContentTemplate="{DataTemplate local:Questoes}"
+        Route="Questoes" />
+
+    <ShellContent 
+       Title="Positivo"
+       ContentTemplate="{DataTemplate local:Positivo}"
+       Route="Positivo" />
+
+    <ShellContent 
+       Title="Negativo"
+       ContentTemplate="{DataTemplate local:Negativo}"
+       Route="Negativo" />
+
 </Shell>
