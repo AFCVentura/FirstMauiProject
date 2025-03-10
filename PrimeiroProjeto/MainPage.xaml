@@ -25,10 +25,25 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button 
+                x:Name="AlertBtn"
+                Text="Exibir Alerta"
+                Clicked="ShowAlert"
+                />
+            <Button 
+                x:Name="AlertBtnWithOptions"
+                Text="Exibir Alerta com opções"
+                Clicked="ShowAlertWithOptions"
+             />
+            <Button 
+                x:Name="PromptBtn"
+                Text="Exibir Prompt"
+                Clicked="ShowPrompt"
+            />
+            <Button 
                 x:Name="NavBtn"
                 Text="Ir para perguntas"
                 Clicked="NavigateTo"
-                />
+            />
         </VerticalStackLayout>
     </ScrollView>
 
